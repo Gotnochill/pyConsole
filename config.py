@@ -1,0 +1,27 @@
+# Dashboard configuration
+WINDOW_TITLE = "Car Dashboard Simulator - pyConsole"
+WINDOW_SIZE = "1200x800"
+BACKGROUND_COLOR = '#2c2c2c'
+
+# Physics constants
+MAX_SPEED = 260
+MAX_RPM = 9000
+IDLE_RPM = 800
+FINAL_DRIVE_RATIO = 4.1
+TIRE_CIRCUMFERENCE = 2.04
+
+# Gear ratios
+GEAR_RATIOS = {1: 3.5, 2: 2.1, 3: 1.4, 4: 1.0, 5: 0.8, 6: 0.65}
+REVERSE_GEAR_RATIO = 3.9
+
+# Animation settings
+PHYSICS_UPDATE_RATE = 0.05  # 20 Hz
+GUI_UPDATE_RATE = 50        # 20 Hz
+
+# Safety system limits
+ABS_MAX_BRAKE = 0.7
+ESP_STEERING_THRESHOLD = 200
+ESP_POWER_REDUCTION = 0.7
+ACC_TARGET_SPEED = 100
+SPD_MAX_SPEED = 120
+ODS_POWER_REDUCTION = 0.85

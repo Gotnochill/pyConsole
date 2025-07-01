@@ -1,0 +1,19 @@
+import math
+
+# Gauge drawing constants
+GAUGE_CENTER_X = 150
+GAUGE_CENTER_Y = 150
+GAUGE_RADIUS = 120
+NEEDLE_LENGTH = 100
+
+# Color constants
+GAUGE_OUTLINE_COLOR = 'white'
+NEEDLE_COLOR = 'red'
+RED_ZONE_COLOR = 'red'
+BACKGROUND_COLOR = '#2c2c2c'
+BUTTON_COLOR = '#4a4a4a'
+ACTIVE_COLOR = 'green'
+
+# Animation constants
+SPEED_ANIMATION_FACTOR = 0.1
+RPM_ANIMATION_FACTOR = 0.15
